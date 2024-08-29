@@ -1,0 +1,1 @@
+@echo off for /f "tokens=*" %%i in ('git rev-parse --abbrev-ref HEAD') do set branch=%%i echo Collection git : (%master%) %cd%
